@@ -1,0 +1,31 @@
+\documentclass[10pt]{article}
+
+\usepackage{a4wide}
+\usepackage[scaled]{uarial}
+\renewcommand*\familydefault{\sfdefault}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\pagestyle{empty}
+\graphicspath{{./}{../final}}
+
+\begin{document}
+
+\begin{minipage}[t]{.32\linewidth}
+  \textbf{A}\\
+  \includegraphics[width=\linewidth]{Fig2A_num_reads_ORF_vs_num_pass}
+\end{minipage}\hfill
+\begin{minipage}[t]{.64\linewidth}
+  \textbf{B}\\
+  \includegraphics[width=\linewidth]{Fig2B_mutation_rate_vs_sequence_pos-01}
+\end{minipage}
+
+\begin{minipage}[t]{0.32\linewidth}
+  \textbf{D}\\
+  \includegraphics[width=\linewidth]{Fig2D_background_error_vs_num_pass}
+\end{minipage}\hfill
+\begin{minipage}[t]{.64\linewidth}
+  \textbf{C}\\
+  \includegraphics[width=\linewidth]{Fig2C_background_error_vs_sequence_pos-01}
+\end{minipage}
+
+\end{document}
